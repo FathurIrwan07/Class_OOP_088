@@ -43,4 +43,11 @@ public:
 	}
 
 
-	
+	void tampil() {
+		cout << "\nDataMatakuliah";
+		cout << "\nKode Matakuliah : " << kode;
+		cout << "\nNama Matakuliah : " << namaMK;
+		cout << "\nSKS : " << sks;
+	}
+};
+
